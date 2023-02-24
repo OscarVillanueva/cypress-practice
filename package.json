@@ -1,0 +1,19 @@
+{
+	"name": "cypress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "cypress open",
+		"test:headless": "cypress run",
+		"test:headless:firefox": "cypress run --browser firefox",
+		"test:headless:spec": "cypress run --spec cypress/e2e/navigation.cy.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^12.6.0",
+		"prettier": "^2.8.4"
+	}
+}
